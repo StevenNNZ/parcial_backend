@@ -6,7 +6,7 @@ Este proyecto permite gestionar reservas de espacios en un coworking mediante un
 
 Antes de desplegar el proyecto, asegúrese de tener instalados los siguientes requisitos:
 
-- **Java Development Kit (JDK):** Versión 8 o superior.
+- **Java Development Kit (JDK):** Versión 17 o superior.
 - **Apache Tomcat:** Versión 9.0 o superior.
 - **Maven (opcional):** Para gestión de dependencias si se usa.
 
@@ -16,25 +16,25 @@ Antes de desplegar el proyecto, asegúrese de tener instalados los siguientes re
    Para obtener el código fuente del proyecto, ejecutar el siguiente comando en la terminal:
 
    ```sh
-   git clone https://github.com/usuario/proyecto-reservas-coworking.git
+   git clone https://github.com/StevenNNZ/parcial_backend.git
    ```
 
 2. **Importar el proyecto**  
-   Abrir un IDE compatible con Java EE, como Eclipse o IntelliJ IDEA, y cargar el proyecto como un proyecto web dinámico.
+   Abrir un IDE compatible con Java EE, como Eclipse o NetBeans, y cargar el proyecto como un proyecto web dinámico.
 
 3. **Configurar el servidor Tomcat**  
    - Agregar Apache Tomcat en el IDE.
    - Configurar el proyecto para desplegarlo en Tomcat.
 
 4. **Compilar y desplegar**  
-   - Compilar el código desde el IDE o mediante Maven si se usa.
+   - Compilar el código desde el IDE
    - Iniciar el servidor Tomcat y desplegar el proyecto.
 
 5. **Acceder a la aplicación**  
    Una vez desplegado, la aplicación estará disponible en:
 
    ```sh
-   http://localhost:8080/ProyectoReservaCoworking/index.jsp
+   [http://localhost:8080/ProyectoReservaCoworking/index.jsp](http://localhost:8080/parcial_backend/listado-reservas.jsp)
    ```
 
 ## Funcionalidades
@@ -42,7 +42,3 @@ Antes de desplegar el proyecto, asegúrese de tener instalados los siguientes re
 - **Formulario de reserva:** Permite a los usuarios registrar una nueva reserva.
 - **Listado de reservas:** Muestra todas las reservas almacenadas en la sesión.
 - **Eliminación de reservas:** Opción para eliminar una reserva específica.
-
-## Contacto
-
-Para cualquier duda o sugerencia sobre el proyecto, contactar con el desarrollador.
